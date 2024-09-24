@@ -1,0 +1,17 @@
+POST /users/signup HTTP/1.1
+Host: localhost:9292
+Content-Type: application/json
+Content-Length: 132
+
+{
+  "name": "test",
+  "email": "email@test.com",
+  "mobile": "1234567890",
+  "gender": "male",
+  "age": 30,
+  "nationality": "IND"
+}
+
+
+
+
